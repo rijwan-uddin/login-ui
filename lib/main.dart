@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login/pages/LoginPage2Design.dart';
 import 'package:login/pages/loginPage.dart';
 
 void main() {
@@ -10,7 +11,7 @@ class LoginUIdesign extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginPage(),
+      home: LoginPage2Design(),
     );
   }
 }
